@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica;
   text-align: center;
+  align-items: center;
 }
 
 .header {
@@ -36,6 +37,7 @@ p {
   background-color: dimgray;
   font-size: 11px;
   color: white;
+  text-align: left;
 }
 
 .fnav {
