@@ -43,6 +43,7 @@ h2 {
   display: inline-flex;
   flex-grow: 3;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .row {
