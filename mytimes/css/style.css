@@ -6,11 +6,12 @@
 }
 
 .navi {
-  justify-content: flex-end;
   display: inline-flex;
+  justify-content: flex-end;
 }
 
 .header p {
   color: MediumAquamarine;
   display: inline-flex;
+  justify-content: flex-start;
 }
