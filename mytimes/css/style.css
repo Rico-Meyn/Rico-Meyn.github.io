@@ -5,27 +5,27 @@
   font-weight: bold;
 }
 
-.navi {
+.header.navi {
   display: inline-flex;
   justify-content: flex-end;
 }
 
-.header p {
+p.header {
   color: MediumAquamarine;
   display: inline-flex;
   justify-content: flex-start;
 }
 
-.main .large {
+.main.large {
   width: 630px;
 }
 
-.main .medium
+.main.medium
 {
   width: 300px;
 }
 
-.main .small
+.main.small
 {
   width: 240px;
 }
