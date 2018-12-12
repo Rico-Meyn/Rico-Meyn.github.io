@@ -7,10 +7,10 @@
 
 .navi {
   justify-content: flex-end;
-  display: inline-block;
+  display: inline-flex;
 }
 
-p .header
-{
+.header p {
   color: MediumAquamarine;
+  display: inline-flex;
 }
