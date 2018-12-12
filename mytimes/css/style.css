@@ -5,6 +5,10 @@
   font-weight: bold;
 }
 
+.main {
+  display: flex;
+}
+
 .header.navi {
   display: inline-flex;
   justify-content: flex-end;
