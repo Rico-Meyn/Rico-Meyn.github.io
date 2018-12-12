@@ -15,3 +15,17 @@
   display: inline-flex;
   justify-content: flex-start;
 }
+
+.main .large {
+  width: 630px;
+}
+
+.main .medium
+{
+  width: 300px;
+}
+
+.main .small
+{
+  width: 240px;
+}
