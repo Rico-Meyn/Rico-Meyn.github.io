@@ -18,14 +18,17 @@ p.header {
 
 .main.large {
   width: 630px;
+  display: inline-flex;
 }
 
 .main.medium
 {
   width: 300px;
+  display: inline-flex;
 }
 
 .main.small
 {
   width: 240px;
+  display: inline-flex;
 }
