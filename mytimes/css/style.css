@@ -14,10 +14,9 @@
   justify-content: flex-end;
 }
 
-p.header {
+p .header {
   color: MediumAquamarine;
   display: inline-flex;
-  justify-content: flex-start;
 }
 
 .main.large {
