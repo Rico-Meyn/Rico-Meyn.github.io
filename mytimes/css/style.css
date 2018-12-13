@@ -9,28 +9,28 @@
   display: flex;
 }
 
-.header.navi {
+.header .navi {
   display: inline-flex;
   justify-content: flex-end;
 }
 
-p .header {
+.header p {
   color: MediumAquamarine;
   display: inline-flex;
 }
 
-.main.large {
+.main .large {
   width: 630px;
   display: inline-flex;
 }
 
-.main.medium
+.main .medium
 {
   width: 300px;
   display: inline-flex;
 }
 
-.main.small
+.main .small
 {
   width: 240px;
   display: inline-flex;
