@@ -19,7 +19,6 @@
 .header p {
   color: MediumAquamarine;
   display: inline-flex;
-  justify-content: flex-end;
 }
 
 .header img {
@@ -41,4 +40,11 @@
 {
   width: 240px;
   display: inline-flex;
+}
+
+.header a {
+  color: black;
+  color: MediumAquamarine;
+  display: inline-flex;
+  justify-content: flex-end;
 }
