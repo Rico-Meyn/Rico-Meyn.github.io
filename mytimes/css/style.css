@@ -7,8 +7,6 @@
 
 .main {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .header .navi {
@@ -28,18 +26,24 @@
 .main .large {
   width: 630px;
   display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .main .medium
 {
   width: 300px;
   display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .main .small
 {
   width: 240px;
   display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .header a {
