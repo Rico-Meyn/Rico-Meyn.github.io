@@ -52,5 +52,6 @@
 .header a {
   color: black;
   display: inline-flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  float: right;
 }
