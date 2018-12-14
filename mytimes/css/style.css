@@ -1,9 +1,10 @@
 .header {
-  display: flex;
+  /* display: flex; */
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   size: 100%;
+  align-content: center;
 }
 
 .main {
