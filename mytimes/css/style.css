@@ -5,6 +5,7 @@
   size: 100%;
   align-items: center;
   display: inline-flex;
+  justify-content: flex-end;
 }
 
 .main {
@@ -13,14 +14,12 @@
 
 .navi {
   color: black;
-  justify-content: flex-end;
   float: right
   width: 200px;
 }
 
 .header p {
   color: MediumAquamarine;
-  justify-content: space-around;
   width: 200px;
 }
 
