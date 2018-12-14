@@ -19,6 +19,10 @@
   display: inline-flex;
 }
 
+.header img {
+  flex-grow: 1;
+}
+
 .main .large {
   width: 630px;
   display: inline-flex;
