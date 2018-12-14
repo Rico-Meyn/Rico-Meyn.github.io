@@ -9,9 +9,11 @@
   display: flex;
 }
 
-.header .navi {
+.navi {
   display: inline-flex;
-  justify-content: flex-end;
+  color: black;
+  justify-content: space-around;
+  float: right;
 }
 
 .header p {
@@ -47,11 +49,4 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-}
-
-.header a {
-  color: black;
-  display: inline-flex;
-  justify-content: space-around;
-  float: right;
 }
