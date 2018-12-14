@@ -27,6 +27,7 @@
   width: 630px;
   display: inline-flex;
   justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -35,6 +36,7 @@
   width: 300px;
   display: inline-flex;
   justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -43,12 +45,12 @@
   width: 240px;
   display: inline-flex;
   justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .header a {
   color: black;
-  color: MediumAquamarine;
   display: inline-flex;
   justify-content: flex-end;
 }
