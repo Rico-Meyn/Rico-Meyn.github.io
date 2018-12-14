@@ -14,13 +14,13 @@
   color: black;
   justify-content: space-around;
   float: right
-  width: 80px;
+  width: 200px;
 }
 
 .header p {
   color: MediumAquamarine;
   display: inline-flex;
-  width: 80px;
+  width: 200px;
 }
 
 .header img {
