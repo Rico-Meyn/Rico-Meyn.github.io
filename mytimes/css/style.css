@@ -1,10 +1,10 @@
 .header {
-  /* display: flex; */
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   size: 100%;
   align-content: center;
+  display: inline-flex;
 }
 
 .main {
@@ -12,7 +12,6 @@
 }
 
 .navi {
-  display: inline-flex;
   color: black;
   justify-content: space-around;
   float: right
