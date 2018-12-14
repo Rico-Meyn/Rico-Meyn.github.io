@@ -13,12 +13,14 @@
   display: inline-flex;
   color: black;
   justify-content: space-around;
-  float: right;
+  float: right
+  width: 80px;
 }
 
 .header p {
   color: MediumAquamarine;
   display: inline-flex;
+  width: 80px;
 }
 
 .header img {
