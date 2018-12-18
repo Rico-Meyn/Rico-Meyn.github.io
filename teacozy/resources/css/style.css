@@ -27,9 +27,10 @@ header {
 nav span {
   display: inline-flex;
   padding: 10px 20px
+  text-decoration: underline;
 }
 
 nav {
-  text-decoration: underline;
   align-items: center;
+  justify-content: flex-end;
 }
