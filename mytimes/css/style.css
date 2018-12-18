@@ -3,7 +3,7 @@
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
 }
 
@@ -16,11 +16,10 @@
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: inline-flex;
   color: black;
   float: right;
+  justify-content: space-around;
 }
 
 .header p {
