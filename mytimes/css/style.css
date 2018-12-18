@@ -19,6 +19,7 @@
 .header p {
   color: MediumAquamarine;
   width: 80px;
+  display: inline-flex;
 }
 
 .header img {
