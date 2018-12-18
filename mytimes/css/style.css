@@ -13,21 +13,28 @@
 }
 
 .navi {
-  font-family: Verdana;
+  /* font-family: Verdana;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: bold; */
   align-items: center;
   display: inline-flex;
-  color: black;
+  /* color: black; */
   float: right;
   justify-content: space-around;
   width: 50%;
 }
 
+.navi p {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
 .header p {
   color: MediumAquamarine;
   padding: 10px;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .header img {
