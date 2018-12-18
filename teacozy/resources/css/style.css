@@ -45,6 +45,7 @@ nav span {
 .mistext {
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .main {
