@@ -12,6 +12,7 @@
 }
 
 .navi {
+  display: flex;
   color: black;
   justify-content: flex-end;
 }
