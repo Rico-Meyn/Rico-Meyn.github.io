@@ -12,14 +12,15 @@
 }
 
 .navi {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: black;
   float: right;
-  justify-content: space-around;
 }
 
 .header p {
