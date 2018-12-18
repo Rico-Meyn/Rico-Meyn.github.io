@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell
+}
