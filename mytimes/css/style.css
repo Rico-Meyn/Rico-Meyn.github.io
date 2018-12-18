@@ -13,12 +13,12 @@
 
 .navi {
   color: black;
-  /* float: right */
+  justify-content: flex-end;
 }
 
 .header p {
   color: MediumAquamarine;
-  padding: 20px;
+  padding: 10px;
   display: inline-flex;
 }
 
