@@ -26,11 +26,16 @@ header {
 
 nav {
   display: inline-flex;
-  justify-content: flex-end;
-  padding: 10px 20px;
-  text-decoration: underline;
   align-items: center;
-  float: right;
+/*  justify-content: flex-end;
+  float: right; */
+}
+
+nav span{
+    padding: 10px 20px;
+    text-decoration: underline;
+    justify-content: flex-end;
+    float: right;
 }
 
 .mission {
@@ -46,6 +51,7 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: black;
+  width: 1200px;
 }
 
 .main {
