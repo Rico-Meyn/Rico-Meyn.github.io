@@ -17,7 +17,7 @@ header {
   width: 100%;
 }
 
-header img {
+.logo img {
   height: 50px;
   margin-left: 10px;
   justify-content: flex-start;
