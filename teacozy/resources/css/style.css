@@ -24,7 +24,11 @@ header img {
 }
 
 nav span{
-  display: inline-block;
+  display: inline-flex;
   padding: 10px 20px
+}
+
+header nav{
   text-decoration: underline;
+  align-items: center;
 }
