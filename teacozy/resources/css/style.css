@@ -23,12 +23,12 @@ header img {
   justify-content: flex-start;
 }
 
-nav span{
+nav span {
   display: inline-flex;
   padding: 10px 20px
 }
 
-nav{
+nav {
   text-decoration: underline;
   align-items: center;
 }
