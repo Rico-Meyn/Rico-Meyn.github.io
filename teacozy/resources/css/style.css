@@ -24,7 +24,7 @@ header {
   justify-content: flex-start;
 }
 
-nav span {
+nav {
   display: inline-flex;
   justify-content: flex-end;
   padding: 10px 20px;
