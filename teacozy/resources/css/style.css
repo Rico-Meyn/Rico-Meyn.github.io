@@ -25,6 +25,7 @@ header {
 }
 
 nav span {
+  display: inline-flex;
   justify-content: flex-end;
   padding: 10px 20px
   text-decoration: underline;
@@ -35,4 +36,6 @@ nav span {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
+  margin-top: 0px;
+  text-align: center;
 }
