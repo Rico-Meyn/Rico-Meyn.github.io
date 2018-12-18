@@ -5,7 +5,9 @@
   align-items: center;
   display: inline-flex;
   justify-content: space-around;
-  width: 500px;
+  width: 100%;
+  position: fixed
+  border-bottom: 1px solid black;
 }
 
 .main {
