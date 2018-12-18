@@ -2,6 +2,7 @@ body {
   background-color: black;
   opacity: 0.9;
   font-family: Helvetica;
+  font-size: 22px;
   color: seashell;
   text-align: center;
 }
@@ -10,4 +11,13 @@ header {
   display: flex;
   position: fixed;
   border-bottom: 1px solid seashell
+  height: 69px;
+  z-index: 1;
+  width: 100%;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+  justify-content: flex-start;
 }
