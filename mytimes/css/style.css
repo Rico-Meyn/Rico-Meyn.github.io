@@ -18,7 +18,7 @@
 
 .header p {
   color: MediumAquamarine;
-  width: 80px;
+  padding: 20px;
   display: inline-flex;
 }
 
