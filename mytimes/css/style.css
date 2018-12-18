@@ -14,7 +14,8 @@
 .navi {
   display: flex;
   color: black;
-  justify-content: flex-end;
+  float: right;
+  justify-content: space-around;
 }
 
 .header p {
