@@ -42,6 +42,11 @@ nav span {
   align-items: center;
 }
 
+.mistext {
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   display: flex;
   flex-wrap: wrap;
