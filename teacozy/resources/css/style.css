@@ -11,10 +11,11 @@ header {
   display: flex;
   position: fixed;
   align-items: center;
-  border-bottom: 1px solid seashell
+  border-bottom: 1px solid seashell;
   height: 69px;
   z-index: 1;
   width: 100%;
+  background-color: black;
 }
 
 .logo img {
