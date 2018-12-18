@@ -2,9 +2,9 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  width: 100%;
   align-items: center;
   display: flex;
+  justify-content: space-around;
 }
 
 .main {
