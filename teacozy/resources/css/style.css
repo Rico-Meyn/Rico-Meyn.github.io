@@ -93,7 +93,7 @@ nav span {
   display: flex;
   flex-wrap: wrap;
   height: 500px;
-  width: auto;
+  width: 1200px;
   justify-content: center;
   align-items: center;
 }
