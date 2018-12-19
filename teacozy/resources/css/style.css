@@ -30,8 +30,8 @@ nav {
   display: inline-flex;
   align-items: center;
   padding-right: 40px;
-  /*justify-content: flex-end;
-  float: right;*/
+  /*justify-content: flex-end;*/
+  float: right;
 }
 
 nav span {
@@ -108,4 +108,8 @@ nav span {
 .copyright {
   text-align: left;
   margin-left: 20px;
+}
+
+.lochead {
+  text-align: center;
 }
