@@ -70,9 +70,10 @@ nav span {
 }
 
 .conpic {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .conpic img {
@@ -91,7 +92,7 @@ nav span {
   display: flex;
   flex-wrap: wrap;
   height: 500px;
-  width: 1200px;
+  width: auto;
   justify-content: center;
   align-items: center;
 }
