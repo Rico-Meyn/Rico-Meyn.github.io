@@ -100,7 +100,7 @@ nav span {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   display: flex;
   flex-wrap: wrap;
-  height: 575px;
+  height: 500px;
   width: 1200px;
   justify-content: center;
   align-items: center;
