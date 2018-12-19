@@ -70,12 +70,17 @@ nav span {
 }
 
 .contpic {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .contpic img {
   max-height: 200px;
   max-width: 300px;
+}
+
+.context {
+  align-items: center;
 }
 
 .location {
