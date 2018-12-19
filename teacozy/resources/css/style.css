@@ -69,3 +69,20 @@ nav span {
   height: 200px;
   width: 300px;
 }
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.specloc {
+  padding: 0 20px;
+  opacity: 1;
+  width: 300px;
+  align-items: center;
+  height: 300px; 
+}
