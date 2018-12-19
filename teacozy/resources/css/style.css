@@ -65,11 +65,13 @@ nav span {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 1000px;
 }
 
-#berry /*#rumtea #donuts #myrtle #bedford*/ {
+#berry, #rumtea, #donuts, #myrtle, #bedford {
   height: 200px;
   width: 300px;
+  margin-bottom: 10px;
 }
 
 .location {
