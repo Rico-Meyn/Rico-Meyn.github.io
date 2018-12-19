@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-end;
   float: right;
@@ -36,6 +36,7 @@ nav {
 nav span {
     padding: 10px 20px;
     text-decoration: underline;
+    justify-content: flex-end;
 }
 
 .navi
@@ -98,8 +99,7 @@ nav span {
   height: 500px;
   width: 1200px;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  align-items: baseline;
 }
 
 .specloc {
@@ -117,4 +117,5 @@ nav span {
 .lochead {
   text-align: center;
   display: block;
+  align-self: center;
 }
