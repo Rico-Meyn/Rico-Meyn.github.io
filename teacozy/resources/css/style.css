@@ -23,7 +23,7 @@ header {
   height: 50px;
   margin-left: 10px;
   justify-content: flex-start;
-  margin-right: 500px: 
+  margin-right: 500px:
 }
 
 nav {
@@ -74,8 +74,8 @@ nav span {
 }
 
 .contpic img {
-  height: 200px;
-  width: 300px;
+  max-height: 200px;
+  max-width: 300px;
 }
 
 .location {
@@ -88,7 +88,7 @@ nav span {
 }
 
 .specloc {
-  padding: 15px 20px;
+  margin: 15px 20px;
   opacity: 1;
   width: 300px;
   align-items: center;
