@@ -86,7 +86,7 @@ nav span {
   max-height: 200px;
   max-width: 300px;
   display: inline-flex;
-  padding: 0 10px;
+  padding: 0 10px 5px 10px;
   margin: 0;
 }
 
@@ -120,6 +120,8 @@ nav span {
 
 .lochead {
   display: block;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .end {
