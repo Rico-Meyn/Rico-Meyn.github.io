@@ -124,9 +124,13 @@ nav span {
 .end {
   display: block;
   height: 200px;
-  overflow: scroll;
 }
 
 .conpic h4 {
   margin: 0 auto;
+}
+
+.locs {
+  display: flex;
+  flex-wrap: wrap;
 }
