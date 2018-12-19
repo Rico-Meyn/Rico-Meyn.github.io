@@ -17,6 +17,7 @@ header {
   width: 100%;
   background-color: black;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .logo img {
@@ -100,7 +101,7 @@ nav span {
   height: 500px;
   width: 1200px;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .specloc {
@@ -118,5 +119,4 @@ nav span {
 .lochead {
   text-align: center;
   display: block;
-  align-self: center;
 }
