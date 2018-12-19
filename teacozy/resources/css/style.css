@@ -79,7 +79,6 @@ nav span {
 .conpic img {
   max-height: 200px;
   max-width: 300px;
-  margin-bottom: 10px;
   display: inline-flex;
   padding: 0 10px;
 }
@@ -112,4 +111,5 @@ nav span {
 
 .lochead {
   text-align: center;
+  display: block;
 }
