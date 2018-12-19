@@ -67,7 +67,7 @@ nav span {
   justify-content: center;
 }
 
-#berry #rumtea #donuts #myrtle #bedford {
+#berry /*#rumtea #donuts #myrtle #bedford*/ {
   height: 200px;
   width: 300px;
 }
