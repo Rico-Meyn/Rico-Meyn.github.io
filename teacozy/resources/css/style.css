@@ -29,9 +29,8 @@ header {
 nav {
   display: inline-block;
   align-items: center;
-  /*padding-right: 40px;*/
-  /*justify-content: flex-end;*/
-  /*float: right; */
+  justify-content: flex-end;
+  float: right;
 }
 
 nav span {
@@ -95,11 +94,12 @@ nav span {
 .location {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   display: flex;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
   height: 500px;
   width: 1200px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .specloc {
