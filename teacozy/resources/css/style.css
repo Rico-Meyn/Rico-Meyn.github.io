@@ -101,3 +101,7 @@ nav span {
   align-items: center;
   background-color: black;
 }
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
