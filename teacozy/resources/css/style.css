@@ -25,17 +25,17 @@ header {
   justify-content: flex-start;
 }
 
-header nav {
+nav {
   display: inline-flex;
   align-items: center;
   padding-right: 40px;
+  justify-content: flex-end;
+  float: right;
 }
 
 nav span {
     padding: 10px 20px;
     text-decoration: underline;
-    justify-content: flex-end;
-    float: right;
 }
 
 .mission {
@@ -69,9 +69,12 @@ nav span {
 }
 
 .contpic {
+  margin-bottom: 10px;
+}
+
+.contpic img {
   height: 200px;
   width: 300px;
-  margin-bottom: 10px;
 }
 
 .location {
