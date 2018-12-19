@@ -16,6 +16,7 @@ header {
   z-index: 1;
   width: 100%;
   background-color: black;
+  margin: 0 auto;
 }
 
 .logo img {
@@ -24,12 +25,10 @@ header {
   justify-content: flex-start;
 }
 
-nav {
+header nav {
   display: inline-flex;
   align-items: center;
-  justify-content: flex-end;
-  float: right;
-  padding: 10px 20px;
+  padding-right: 40px;
 }
 
 nav span {
@@ -59,4 +58,14 @@ nav span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#berry, #rumtea, #donuts, #myrtle, #bedford {
+  height: 200px;
+  width: 300px;
 }
