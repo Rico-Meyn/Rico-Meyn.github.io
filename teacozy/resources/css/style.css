@@ -102,6 +102,7 @@ nav span {
   width: 1200px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .specloc {
