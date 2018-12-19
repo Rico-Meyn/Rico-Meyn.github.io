@@ -65,18 +65,19 @@ nav span {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   width: 1000px;
 }
 
-.contpic {
-  margin-top: 10px;
+.conpic {
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contpic img {
   max-height: 200px;
   max-width: 300px;
+  margin: 10px 25px;
 }
 
 .context {
@@ -88,6 +89,7 @@ nav span {
   display: flex;
   flex-wrap: wrap;
   height: 500px;
+  width: 1200px;
   justify-content: center;
   align-items: center;
 }
@@ -97,6 +99,5 @@ nav span {
   opacity: 1;
   width: 300px;
   align-items: center;
-  height: 300px;
   background-color: black;
 }
