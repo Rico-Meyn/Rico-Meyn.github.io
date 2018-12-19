@@ -121,7 +121,6 @@ nav span {
 .lochead {
   display: block;
   width: 100%;
-  margin-bottom: 15px;
 }
 
 .end {
@@ -136,4 +135,12 @@ nav span {
 .locs {
   display: flex;
   flex-wrap: wrap;
+}
+
+.lochead h2 {
+  margin: 0;
+}
+
+.content {
+  margin: 50px auto;
 }
