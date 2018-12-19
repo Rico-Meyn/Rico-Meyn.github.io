@@ -16,7 +16,7 @@ header {
   z-index: 1;
   width: 100%;
   background-color: black;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   justify-content: space-between;
 }
 
@@ -87,7 +87,7 @@ nav span {
   max-height: 200px;
   max-width: 300px;
   display: inline-flex;
-  padding: 10px;
+  padding: 20px 15px 10px 15px;
   margin: 0;
 }
 
