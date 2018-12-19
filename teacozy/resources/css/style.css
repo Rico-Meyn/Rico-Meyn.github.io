@@ -98,7 +98,7 @@ nav span {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   display: flex;
   flex-wrap: wrap;
-  height: 550px;
+  height: 575px;
   width: 1200px;
   justify-content: center;
   align-items: center;
@@ -125,4 +125,8 @@ nav span {
   display: block;
   height: 200px;
   overflow: scroll;
+}
+
+.conpic h4 {
+  margin: 0 auto;
 }
