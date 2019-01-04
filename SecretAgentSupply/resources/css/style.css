@@ -23,3 +23,27 @@ html {
 .header span {
   align-self: center;
 }
+
+/* Motorbike Section */
+
+.moto {
+  background-image: ./resources/images/moto.jpg;
+  height: 25rem;
+  display: flex;
+}
+
+.motobox {
+  width: 20rem;
+  margin-top: 9rem;
+}
+
+.motobox span {
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.motobox h1 {
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-weight: bold; 
+}
