@@ -1,16 +1,16 @@
 /* header */
 
-body, html {
+html {
   font-family: Helvetica;
   font-size: 18px;
   background-color: black;
+  color: white;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  color: white;
   width: 960px;
 }
 
