@@ -12,6 +12,7 @@ html {
   align-items: center;
   justify-content: flex-start;
   width: 960px;
+  height: 2.83rem;
 }
 
 .header img {
@@ -28,6 +29,7 @@ html {
 
 .moto {
   background-image: url(./resources/images/moto.jpg);
+  background-size: cover;
   height: 25rem;
   width: 100%;
   display: flex;
@@ -64,8 +66,11 @@ html {
 
 /* Products */
 
-.products {
+.white {
   background-color: white;
+}
+
+.products {
   display: flex;
   justify-content: space-between;
   width: 960px;
@@ -108,7 +113,7 @@ html {
 
 /* Footer */
 
-.footer {
+footer {
   text-align: left;
   height: 5rem;
 }
