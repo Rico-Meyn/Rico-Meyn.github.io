@@ -27,8 +27,9 @@ html {
 /* Motorbike Section */
 
 .moto {
-  background-image: image(./resources/images/moto.jpg);
+  background-image: url(./resources/images/moto.jpg);
   height: 25rem;
+  width: 100%;
   display: flex;
 }
 
@@ -66,12 +67,15 @@ html {
 .products {
   background-color: white;
   display: flex;
+  justify-content: space-between;
+  width: 960px;
 }
 
 .pro {
   margin-top: 2rem;
   margin-bottom: 2rem;
   height: 9rem;
+  border: 4px solid black;
 }
 
 .box {
@@ -84,10 +88,10 @@ html {
 .open {
   background-color: black;
   height: 3rem;
+  width: 35%;
 }
 
 .spec {
-  width: 35%;
   margin-bottom: 4rem;
   color: black;
 }
