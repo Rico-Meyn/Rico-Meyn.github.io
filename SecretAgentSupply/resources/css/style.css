@@ -60,3 +60,21 @@ html {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+
+/* Products */
+
+.products {
+  background-color: white;
+  display: flex;
+}
+
+.pro {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 9rem;
+}
+
+.box {
+  height: 2rem;
+  margin-bottom: 3rem;
+}
