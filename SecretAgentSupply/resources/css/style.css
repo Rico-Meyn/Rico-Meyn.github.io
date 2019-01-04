@@ -45,5 +45,18 @@ html {
 .motobox h1 {
   margin-left: 3rem;
   font-size: 2rem;
-  font-weight: bold; 
+  font-weight: bold;
+}
+
+/* Navigation */
+
+.navi {
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navi nav {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
