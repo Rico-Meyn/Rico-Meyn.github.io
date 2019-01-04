@@ -95,7 +95,7 @@ html {
 .box {
   height: 2rem;
   margin-bottom: 3rem;
-  display: inline-flex;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   background-color: black;
