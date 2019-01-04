@@ -91,3 +91,10 @@ html {
   margin-bottom: 4rem;
   color: black;
 }
+
+/* Footer */
+
+.footer {
+  text-align: left;
+  height: 5rem;
+}
