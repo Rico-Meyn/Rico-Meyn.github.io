@@ -28,7 +28,7 @@ html {
 /* Motorbike Section */
 
 .moto {
-  background-image: url("./resources/images/moto.jpg");
+  background-image: image("./resources/images/moto.jpg");
   background-size: cover;
   height: 25rem;
   width: 100%;
