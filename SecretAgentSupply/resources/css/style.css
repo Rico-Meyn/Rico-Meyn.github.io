@@ -89,6 +89,7 @@ html {
   align-items: stretch;
   margin-top: 3rem;
   justify-content: center;
+  width: 30%;
 }
 
 .pro img {
@@ -102,6 +103,7 @@ html {
   margin-bottom: 3rem;
   display: block;
   background-color: black;
+  align-self: flex-end;
 }
 
 /* Opening Details */
@@ -110,7 +112,7 @@ html {
 .details {
   display: flex;
   justify-content: space-between
-  width: 960px; 
+  width: 960px;
 }
 
 .open {
@@ -123,6 +125,7 @@ html {
 .spec {
   margin-bottom: 4rem;
   color: black;
+  display: block;
 }
 
 /* Footer */
@@ -131,4 +134,5 @@ footer {
   background-color: black;
   text-align: left;
   height: 5rem;
+  width: 960px;
 }
