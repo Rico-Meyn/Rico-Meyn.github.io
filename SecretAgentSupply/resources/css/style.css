@@ -35,6 +35,10 @@ html {
   display: flex;
 }
 
+.mbx {
+  width: 960px;
+}
+
 .motobox {
   width: 20rem;
   margin-top: 9rem;
