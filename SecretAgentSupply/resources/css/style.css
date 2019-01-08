@@ -28,7 +28,7 @@ html {
 /* Motorbike Section */
 
 .moto {
-  background-image: url("./resources/images/moto.jpg");
+  background-image: url("resources/images/moto.jpg");
   background-size: cover;
   height: 25rem;
   width: 100%;
@@ -65,6 +65,10 @@ html {
   margin-bottom: 0.75rem;
 }
 
+.navi a {
+  color: white;
+}
+
 /* Products */
 
 .white {
@@ -99,6 +103,7 @@ html {
   justify-content: flex-start;
   align-items: center;
   background-color: black;
+  align-self: flex-end;
 }
 
 /* Opening Details */
