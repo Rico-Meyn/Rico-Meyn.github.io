@@ -86,8 +86,9 @@ html {
   height: 13rem;
   border: 4px solid black;
   display: inline-flex;
-  align-items: center;
+  align-items: stretch;
   margin-top: 3rem;
+  justify-content: center;
 }
 
 .pro img {
@@ -99,11 +100,8 @@ html {
 .box {
   height: 2rem;
   margin-bottom: 3rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: block;
   background-color: black;
-  align-self: flex-end;
 }
 
 /* Opening Details */
