@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+/* Background Image Section */
+
+.backimg {
+  background-image: url(./resources/images/glasses-bg.png);
+  height: 30rem;
+  width: 100%;
+  size: cover;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.width {
+  width: 960px;
+  height: 30rem;
+}
+
+.header {
+  margin-top: 1px;
+  background-color: cadetblue;
+  display: flex;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* Picture Section */
+
+
+/* Footer */
