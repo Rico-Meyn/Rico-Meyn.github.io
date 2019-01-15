@@ -7,7 +7,9 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  top: 5.3125rem;
+  background-image: url(./resources/images/banner-landingpage.jpg);
+   /* To offset for fixed header. */
 }
 
 .center {
@@ -117,6 +119,7 @@ header .desktop-logo {
   line-height: 1.6;
 }
 
+
 /* Sign Up Section */
 
 #sign-up-section {
@@ -124,6 +127,7 @@ header .desktop-logo {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  margin: 170px 0 170px 100px;
 }
 
 #sign-up-cta {
@@ -166,6 +170,7 @@ header .desktop-logo {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  margin: 26px 80px 56px 80px;
 }
 
 @media only screen and (max-width: 760px) {
