@@ -11,6 +11,7 @@ header {
   position: fixed;
   background-color: white;
   justify-content: space-between;
+  align-items: center;
 }
 
 header img {
@@ -21,6 +22,14 @@ header img {
 
 header span {
   margin-left: 16px;
+}
+
+header .Colmar {
+  color: darkgrey;
+}
+
+header .Academy {
+  color: lightgrey;
 }
 
 .links {
@@ -145,7 +154,7 @@ header span {
 
 .courses {
   background-color: lightgrey;
-  padding: 32px 72px;
+  padding: 32px 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -158,6 +167,7 @@ header span {
 {
   background-color: white;
   display: inline-flex;
+  margin: 32px;
 }
 
 .courses .cours .ctext {
