@@ -26,15 +26,20 @@ header span {
 }
 
 header .Colmar {
-  color: darkgrey;
+  color: #121212;
 }
 
 header .Academy {
-  color: lightgrey;
+  color: #303030;
 }
 
 .links {
   margin-right: 24px;
+}
+
+header .links a {
+  color: black;
+  text-decoration: none;
 }
 
 /* Banner Section */
@@ -48,6 +53,7 @@ header .Academy {
 .cover .learn {
   display: inline-flex;
   justify-content: flex-start;
+  flex-direction: column;
 }
 
 .cover img {
@@ -69,10 +75,11 @@ header .Academy {
 .cover .learn .button {
   background-color: darkgrey;
   width: 65%;
+  height: 24px;
   display: block;
 }
 
-.cover .button span {
+.cover .learn .button span {
   margin: 0 8px;
 }
 
@@ -169,6 +176,7 @@ header .Academy {
 
 .courses h1 {
   margin: 32px 0;
+  display: block;
 }
 
 .courses .cours
