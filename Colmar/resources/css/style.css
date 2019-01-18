@@ -35,11 +35,11 @@ header img {
   height: 32px;
   margin-left: 24px;
 }
-
+/*
 header span {
-  margin-left: 16px;
+  align-self: center;
 }
-
+*/
 header .Colmar {
   color: #bababa;
 }
@@ -55,6 +55,13 @@ header .Academy {
 header .links a {
   color: black;
   text-decoration: none;
+}
+
+header .ca {
+  display: inline-flex;
+  margin-left: 16px;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /* Banner Section */
@@ -85,7 +92,7 @@ header .links a {
 }
 
 .cover .learn .button {
-  background-color: dark#bababa;
+  background-color: #454545;
   width: 65%;
   height: 48px;
   display: flex;
@@ -132,12 +139,12 @@ text-decoration: none;
   display: inline-flex;
   width: 40%;
   flex-direction: column;
-  border-left: 1px solid #e8e8e8;
+  border-left: 1px solid #bababa;
 }
 
 .news .right .orientation {
   padding: 12px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #bababa;
   display: flex;
   align-items: center;
 }
@@ -151,7 +158,7 @@ text-decoration: none;
 
 .news .right .campus {
   padding: 12px;
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #bababa;
   display: flex;
   align-items: center;
 }
@@ -253,6 +260,7 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   width: 100%;
+  align-items: center;
 }
 
 .thesis .content .left {
