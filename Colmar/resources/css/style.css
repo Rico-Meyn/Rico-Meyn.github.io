@@ -245,6 +245,10 @@ text-decoration: none;
   justify-content: space-between;
 }
 
+.courses .offers .cours .ctext .couhead {
+  margin: 8px 16px 8px 0;
+}
+
 /* Thesis Part */
 
 .thesis {
