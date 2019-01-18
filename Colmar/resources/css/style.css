@@ -49,12 +49,16 @@ header .Academy {
 }
 
 .links {
-  margin-right: 24px;
+  margin-right: 8px;
 }
 
 header .links a {
   color: black;
   text-decoration: none;
+}
+
+header .links span {
+  margin-right: 16px;
 }
 
 header .ca {
