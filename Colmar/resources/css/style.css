@@ -42,11 +42,6 @@ header .links a {
   text-decoration: none;
 }
 
-header .ca {
-  display: inline-flex;
-  justify-content: flex-start;
-}
-
 /* Banner Section */
 
 .cover {
@@ -57,8 +52,9 @@ header .ca {
 
 .cover .learn {
   display: inline-flex;
-  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
+  justify-content: center;
 }
 
 .cover img {
@@ -80,8 +76,15 @@ header .ca {
 .cover .learn .button {
   background-color: darkgrey;
   width: 65%;
-  height: 24px;
-  display: block;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover .learn .button a {
+color: white;
+text-decoration: none;
 }
 
 .cover .learn .button span {
@@ -98,7 +101,7 @@ header .ca {
 
 .news .practicing {
   padding: 32px 24px;
-  width: 60%;
+  width: 55%;
   display: inline-flex;
   flex-direction: column;
 }
@@ -147,7 +150,7 @@ header .ca {
 
 .news .right .guest
 {
-  background-color: lightgrey;
+  background-color: grey;
 }
 
 .news .right .guest img
@@ -165,6 +168,7 @@ header .ca {
 
 .text a {
   color: blue;
+  text-decoration: none;
 }
 
 .text span {
