@@ -263,8 +263,12 @@ text-decoration: none;
   align-items: flex-start;
 }
 
-.thesis .left h2 {
+.thesis .content .left h2 {
   margin-bottom: 8px;
+}
+
+.thesis .content .left video {
+  width: 100%;
 }
 
 .thesis .content .right {
