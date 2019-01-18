@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans";
+  font-family: "Robotics";
 }
 
 
@@ -10,6 +10,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  line-height: 3rem;
+}
+
+span {
+  line-height: 1.5rem;
 }
 
 /* Header */
@@ -247,9 +252,10 @@ text-decoration: none;
 .thesis .content {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
-.thesis .left {
+.thesis .content .left {
   width: 60%;
   padding: 32px 24px 24px 24px;
   display: inline-flex;
@@ -261,33 +267,33 @@ text-decoration: none;
   margin-bottom: 8px;
 }
 
-.thesis .right {
+.thesis .content .right {
   width: 40%;
   display: inline-flex;
   flex-direction: column;
 }
 
-.thesis .right .fisma {
+.thesis .content .right .fisma {
   background-color: grey;
   display: flex;
   flex-direction: row;
   padding: 16px;
 }
 
-.thesis .right .newyork {
+.thesis .content .right .newyork {
   display: flex;
   flex-direction: row;
   padding: 16px;
 }
 
-.thesis .right .fisma img {
+.thesis .content .right .fisma img {
   margin: 16px;
   width: 35%;
   height: auto;
   display: inline-block;
 }
 
-.thesis .right .newyork img {
+.thesis .content .right .newyork img {
   margin: 16px;
   width: 35px;
   height: auto;
