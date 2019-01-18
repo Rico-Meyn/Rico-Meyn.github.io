@@ -300,12 +300,14 @@ text-decoration: none;
   display: flex;
   flex-direction: row;
   padding: 16px;
+  align-items: center;
 }
 
 .thesis .content .other .newyork {
   display: flex;
   flex-direction: row;
   padding: 16px;
+  align-items: center;
 }
 
 .thesis .content .other .fisma img {
