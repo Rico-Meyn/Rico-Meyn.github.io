@@ -60,3 +60,20 @@ header span {
 .cover .button span {
   margin: 0 8px;
 }
+
+/* News Section */
+
+.news .practicing {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.news .practicing img {
+  margin-bottom: 32px;
+  display: block;
+}
+
+.news .practicing h1 {
+  margin-bottom: 24px;
+  font-weight: bold;
+}
