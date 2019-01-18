@@ -26,3 +26,36 @@ header span {
 }
 
 /* Banner Section */
+
+.cover {
+  background-color: lightgrey;
+  display: flex;
+}
+
+.cover .learn {
+  display: inline-flex;
+}
+
+.cover img {
+  display: inline-block;
+  margin: 12px 32px;
+  width: 60%;
+  padding: 12px 0;
+}
+
+.cover h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.cover span {
+  font-weight: bold;
+}
+
+.cover .button {
+  background-color: darkgrey;
+}
+
+.cover .button span {
+  margin: 0 8px;
+}
