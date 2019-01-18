@@ -157,6 +157,7 @@ header .Academy {
   padding: 32px 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .courses h1 {
@@ -172,8 +173,10 @@ header .Academy {
 
 .courses .cours .ctext {
   padding: 16px 0 32px 16px;
+  display: block;
 }
 
 .courses .cours img {
   height: auto;
+  display: block;
 }
