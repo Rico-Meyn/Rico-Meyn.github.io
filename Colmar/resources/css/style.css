@@ -183,6 +183,7 @@ text-decoration: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .courses h1 {
