@@ -1,5 +1,5 @@
-body {
-  font-family: "Robotics";
+body, html {
+  font-family: "Tahoma";
 }
 
 
@@ -327,4 +327,8 @@ footer a {
 
 footer span {
   margin: 16px 24px 48px 24px;
+}
+
+footer .foot {
+  display: inline-block;
 }
