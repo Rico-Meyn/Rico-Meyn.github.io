@@ -6,6 +6,8 @@ body, html {
 h1 {
   font-size: 3rem;
   font-weight: bold;
+  line-height: 5rem;
+  margin-bottom: 6rem;
 }
 
 h2 {
