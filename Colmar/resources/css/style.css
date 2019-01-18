@@ -42,6 +42,11 @@ header .links a {
   text-decoration: none;
 }
 
+header .ca {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
 /* Banner Section */
 
 .cover {
@@ -87,6 +92,8 @@ header .links a {
 
 .news {
   background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
 }
 
 .news .practicing {
@@ -204,6 +211,8 @@ header .links a {
   background-color: lightgrey;
   padding: 32px 0;
   border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
 }
 
 .thesis .left {
