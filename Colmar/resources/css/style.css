@@ -99,7 +99,7 @@ header .ca {
 
 .cover .learn .button {
   background-color: #454545;
-  width: 65%;
+  width: 480px;
   height: 48px;
   display: flex;
   justify-content: center;
@@ -317,7 +317,7 @@ text-decoration: none;
 
 .thesis .content .other .newyork img {
   margin: 16px;
-  width: 35px;
+  width: 35%;
   height: auto;
   display: inline-block;
 }
