@@ -77,3 +77,61 @@ header span {
   margin-bottom: 24px;
   font-weight: bold;
 }
+
+.news .right {
+  display: inline-flex;
+  width: 40%;
+  flex-direction: column;
+  border-left: 1px solid lightgrey;
+}
+
+.news .orientation {
+  padding: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.news .orientation img {
+  width: 35%;
+  height: auto;
+  display: inline-block;
+  margin: 16px;
+}
+
+.news .campus {
+  padding: 12px;
+  border-top: 1px solid lightgrey;
+}
+
+.news .campus img
+{
+  width: 35%;
+  height: auto;
+  display: inline-block;
+  margin: 16px;
+}
+
+.news .guest
+{
+  background-color: lightgrey;
+}
+
+.news .guest img
+{
+  width: 35%;
+  height: auto;
+  display: inline-block;
+  margin: 16px;
+}
+
+.text {
+  display: inline-block;
+  width: 65%;
+}
+
+.text a {
+  color: blue;
+}
+
+.text span {
+  margin: 8px 0;
+}
