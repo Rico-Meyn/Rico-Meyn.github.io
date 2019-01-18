@@ -128,6 +128,7 @@ text-decoration: none;
   padding: 12px;
   border-bottom: 1px solid lightgrey;
   display: flex;
+  align-items: center;
 }
 
 .news .right .orientation img {
@@ -141,6 +142,7 @@ text-decoration: none;
   padding: 12px;
   border-top: 1px solid lightgrey;
   display: flex;
+  align-items: center;
 }
 
 .news .right .campus img
@@ -156,6 +158,7 @@ text-decoration: none;
   background-color: grey;
   display: flex;
   padding: 12px;
+  align-items: center;
 }
 
 .news .right .guest img
@@ -178,6 +181,7 @@ text-decoration: none;
 
 .text span {
   margin: 8px 0;
+  display: block;
 }
 
 /* Courses Section */
@@ -196,7 +200,7 @@ text-decoration: none;
   display: block;
 }
 
-.courses .cours
+.courses .offers .cours
 {
   background-color: white;
   display: inline-flex;
@@ -205,14 +209,21 @@ text-decoration: none;
   max-width: 30%;
 }
 
-.courses .cours .ctext {
+.courses .offers .cours .ctext {
   padding: 16px 0 32px 16px;
   display: block;
 }
 
-.courses .cours img {
+.courses .offers .cours img {
   height: auto;
   display: block;
+}
+
+.courses .offers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* Thesis Part */
@@ -272,3 +283,16 @@ text-decoration: none;
   flex-direction: column;
 }
 /* Footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: lightgrey;
+  border-top: solid 1px grey;
+  justify-content: space-between;
+}
+
+footer a {
+  color: grey;
+  text-decoration: none;
+}
