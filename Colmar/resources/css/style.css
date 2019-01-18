@@ -283,33 +283,33 @@ text-decoration: none;
   width: 100%;
 }
 
-.thesis .content .right {
+.thesis .content .other {
   width: 40%;
   display: inline-flex;
   flex-direction: column;
 }
 
-.thesis .content .right .fisma {
+.thesis .content .other .fisma {
   background-color: #bababa;
   display: flex;
   flex-direction: row;
   padding: 16px;
 }
 
-.thesis .content .right .newyork {
+.thesis .content .other .newyork {
   display: flex;
   flex-direction: row;
   padding: 16px;
 }
 
-.thesis .content .right .fisma img {
+.thesis .content .other .fisma img {
   margin: 16px;
   width: 35%;
   height: auto;
   display: inline-block;
 }
 
-.thesis .content .right .newyork img {
+.thesis .content .other .newyork img {
   margin: 16px;
   width: 35px;
   height: auto;
