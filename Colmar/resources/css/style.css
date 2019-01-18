@@ -34,6 +34,7 @@ header span {
 
 .cover .learn {
   display: inline-flex;
+  justify-content: flex-start;
 }
 
 .cover img {
