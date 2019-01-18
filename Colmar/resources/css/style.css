@@ -12,6 +12,7 @@ header {
   background-color: white;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 header img {
@@ -39,9 +40,9 @@ header .Academy {
 /* Banner Section */
 
 .cover {
-  background-color: lightgrey;
+  background-color: grey;
   display: flex;
-  margin-top: 64px;
+  padding-top: 64px;
 }
 
 .cover .learn {
@@ -76,6 +77,10 @@ header .Academy {
 }
 
 /* News Section */
+
+.news {
+  background-color: lightgrey;
+}
 
 .news .practicing {
   padding: 32px 24px;
@@ -155,7 +160,7 @@ header .Academy {
 /* Courses Section */
 
 .courses {
-  background-color: lightgrey;
+  background-color: grey;
   padding: 32px 40px;
   display: flex;
   justify-content: space-between;
@@ -172,6 +177,7 @@ header .Academy {
   display: inline-flex;
   margin: 32px;
   flex-direction: column;
+  max-width: 30%;
 }
 
 .courses .cours .ctext {
@@ -183,3 +189,58 @@ header .Academy {
   height: auto;
   display: block;
 }
+
+/* Thesis Part */
+
+.thesis {
+  background-color: lightgrey;
+  padding: 32px 0;
+  border-bottom: 1px solid grey;
+}
+
+.thesis .left {
+  width: 60%;
+  padding: 32px 24px 24px 24px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.thesis .left h2 {
+  margin-bottom: 8px;
+}
+
+.thesis .right {
+  width: 40%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.thesis .right .fisma {
+  background-color: grey;
+  display: flex;
+}
+
+.thesis .right .newyork {
+  display: flex;
+}
+
+.thesis .right .fisma img {
+  margin: 16px;
+  width: 35%;
+  height: auto;
+  display: inline-block;
+}
+
+.thesis .right .newyork img {
+  margin: 16px;
+  width: 35px;
+  height: auto;
+  display: inline-block;
+}
+
+.txt {
+  width: 65%;
+  display: inline-flex;
+  flex-direction: column;
+}
+/* Footer */
