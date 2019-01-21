@@ -71,6 +71,7 @@ header .ca {
 }
 
 .linksmob {
+  display: flex;
   justify-content: space-around;
 }
 
