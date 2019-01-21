@@ -73,7 +73,7 @@ header .ca {
 .linksmob {
   justify-content: space-around;
 }
-/*
+
 @media only screen and (min-width: 600px) {
   .linksmob {
     display: none;
@@ -81,17 +81,13 @@ header .ca {
 }
 
 @media only screen and (max-width: 600px) {
-  .links {
+  .links, .logo {
     display: none;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .logo {
-    display: none;
-  }
-}
-*/
+
+
 
 /* Banner Section */
 
