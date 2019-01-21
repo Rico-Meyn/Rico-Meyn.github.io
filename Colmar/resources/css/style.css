@@ -70,14 +70,24 @@ header .ca {
   align-items: center;
 }
 
-@media screen and (min-width: 480px) {
+.linksmob {
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 480px) {
   .linksmob {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
     display: none;
   }
 }
@@ -89,6 +99,11 @@ header .ca {
   padding-top: 64px;
   align-items: flex-start;
 }
+
+@media only screen and (max-width: 480px) {
+  .cover {
+    flex-direction: column; }
+  }
 
 .cover h1 {
   margin: 32px 0 32px 16px;
