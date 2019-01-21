@@ -314,6 +314,34 @@ text-decoration: none;
   margin: 8px 16px 8px 0;
 }
 
+@media screen only and (min-width: 600px)
+{
+  .coumob {
+    display: none;
+  }
+}
+
+@media screen only and (max-width: 600px)
+{
+  .offers {
+    display: none;
+  }
+}
+
+
+.coumob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.butmob {
+  background-color: #121212;
+  height: 64px;
+  width: 90%;
+}
+
 /* Thesis Part */
 
 .thesis h1 {
