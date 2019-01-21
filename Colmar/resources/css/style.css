@@ -23,8 +23,9 @@ span {
   .cover {
     flex-direction: column;
   }
-  .links, .courses, .logo, .offers, .news  {
-    display: none;
+
+  .links, .courses, .logo, .offers, .news, .other  {
+    visibility: hidden;
   }
 
   .cover .learn .button {
@@ -56,7 +57,7 @@ span {
 
 @media only screen and (min-width: 600px) {
     .linksmob, .newsphone, .coumob, .butmob  {
-      display: none;
+      visibility: hidden;
     }
   }
 
@@ -124,6 +125,7 @@ header .ca {
   display: flex;
   padding-top: 64px;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 
