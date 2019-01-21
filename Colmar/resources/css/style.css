@@ -19,52 +19,6 @@ span {
   line-height: 1.5rem;
 }
 
-
-
-/* @media only screen and (max-width: 600px) {
-  .cover {
-    flex-direction: column;
-  }
-
-  .links, .courses, .logo, .offers, .news, .other  {
-    display: none;
-  }
-
-  .cover .learn .button {
-    background-color: #bababa;
-  }
-  .newsphone {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-
-    .textphone {
-      margin-left: 16px;
-      display: block;
-       }
-
-       .artphone {
-         padding: 16px;
-         margin-bottom: 64px;
-         align-items: center;
-       }
-
-       .artphone img {
-         width: 100%;
-         height: auto;
-       }
-}
-
-@media only screen and (min-width: 600px) {
-    .linksmob, .newsphone, .coumob, .butmob  {
-      display: none;
-    }
-  }
-
-  */
-
 /* Header */
 
 header {
@@ -117,10 +71,25 @@ header .ca {
 }
 
 .linksmob {
-  display: flex;
   justify-content: space-around;
 }
 
+@media only screen and (min-width: 480px) {
+  .linksmob {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
 }
 /* Banner Section */
 
@@ -129,9 +98,12 @@ header .ca {
   display: flex;
   padding-top: 64px;
   align-items: flex-start;
-  flex-direction: row;
 }
 
+@media only screen and (max-width: 480px) {
+  .cover {
+    flex-direction: column; }
+  }
 
 .cover h1 {
   margin: 32px 0 32px 16px;
@@ -159,13 +131,18 @@ header .ca {
 
 .cover .learn .button {
   background-color: #454545;
-  width: 80%;
+  width: 480px;
   height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 24px 0 32px 0;
-  flex-grow: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  .cover .learn .button {
+    background-color: #bababa;
+  }
 }
 
 .cover .learn .button a {
@@ -321,20 +298,6 @@ text-decoration: none;
 
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
-}
-
-.coumob {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.butmob {
-  background-color: #bababa;
-  height: 64px;
-  width: 90%;
-  margin: 16px;
 }
 
 /* Thesis Part */
