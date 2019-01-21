@@ -88,7 +88,7 @@ header .ca {
 .cover img {
   display: inline-block;
   margin: 12px 32px;
-  width: 60%;
+  max-width: 60%;
   height: auto;
   padding: 12px 0;
 }
