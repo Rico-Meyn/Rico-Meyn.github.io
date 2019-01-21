@@ -70,6 +70,17 @@ header .ca {
   align-items: center;
 }
 
+@media only screen and (min-width: 480px) {
+  .linksmob {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .links {
+    display: none;
+  }
+}
 /* Banner Section */
 
 .cover {
