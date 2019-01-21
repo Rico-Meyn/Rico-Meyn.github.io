@@ -313,7 +313,7 @@ text-decoration: none;
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
 }
-
+/*
 @media screen only and (min-width: 600px)
 {
   .coumob {
@@ -327,8 +327,7 @@ text-decoration: none;
     display: none;
   }
 }
-
-
+*/
 .coumob {
   display: flex;
   flex-direction: column;
@@ -421,7 +420,7 @@ text-decoration: none;
   flex-direction: column;
 }
 
-@@media only screen (max-width: 600px) {
+@media only screen (max-width: 600px) {
   .other {
     display: none;
   }
