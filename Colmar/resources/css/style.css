@@ -420,6 +420,12 @@ text-decoration: none;
   display: inline-flex;
   flex-direction: column;
 }
+
+@@media only screen (max-width: 600px) {
+  .other {
+    display: none;
+  }
+}
 /* Footer */
 
 footer {
