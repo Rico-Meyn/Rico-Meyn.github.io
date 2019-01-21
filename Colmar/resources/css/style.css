@@ -19,7 +19,6 @@ span {
   line-height: 1.5rem;
 }
 
-
 @media only screen and (max-width: 600px) {
   .cover {
     flex-direction: column;
@@ -45,10 +44,12 @@ span {
     .news {
       display: none;
     }
+
     .textphone {
       margin-left: 16px;
       display: block;
        }
+
        .artphone {
          padding: 16px;
          margin-bottom: 64px;
@@ -59,9 +60,13 @@ span {
          width: 100%;
          height: auto;
        }
+
+    .courses {
+      display: none;
+    }
 }
 
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .linksmob {
       display: none;
     }
@@ -69,6 +74,9 @@ span {
       display: none;
     }
       .coumob {
+        display: none;
+      }
+      .butmob {
         display: none;
       }
   }
