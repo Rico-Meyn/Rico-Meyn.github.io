@@ -25,7 +25,7 @@ span {
   }
 
   .links, .courses, .logo, .offers, .news, .other  {
-    visibility: hidden;
+    display: none;
   }
 
   .cover .learn .button {
@@ -57,7 +57,7 @@ span {
 
 @media only screen and (min-width: 600px) {
     .linksmob, .newsphone, .coumob, .butmob  {
-      visibility: hidden;
+      display: none;
     }
   }
 
