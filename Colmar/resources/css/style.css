@@ -281,7 +281,7 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .thesis .content .left {
