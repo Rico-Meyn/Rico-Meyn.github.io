@@ -23,12 +23,10 @@ span {
   .cover {
     flex-direction: column;
   }
-  .links {
+  .links, .courses, .logo, .offers, .news  {
     display: none;
   }
-  .logo {
-    display: none;
-  }
+
   .cover .learn .button {
     background-color: #bababa;
   }
@@ -38,12 +36,6 @@ span {
     align-items: center;
     margin-bottom: 16px;
   }
-  .offers {
-    display: none;
-  }
-    .news {
-      display: none;
-    }
 
     .textphone {
       margin-left: 16px;
@@ -60,25 +52,12 @@ span {
          width: 100%;
          height: auto;
        }
-
-    .courses {
-      display: none;
-    }
 }
 
 @media only screen and (min-width: 600px) {
-    .linksmob {
+    .linksmob, .newsphone, .coumob, .butmob  {
       display: none;
     }
-    .newsphone {
-      display: none;
-    }
-      .coumob {
-        display: none;
-      }
-      .butmob {
-        display: none;
-      }
   }
 
 /* Header */
