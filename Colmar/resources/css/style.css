@@ -313,21 +313,21 @@ text-decoration: none;
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
 }
-/*
-@media screen only and (min-width: 600px)
+
+@media only screen and (min-width: 600px)
 {
   .coumob {
     display: none;
   }
 }
 
-@media screen only and (max-width: 600px)
+@media only screen and (max-width: 600px)
 {
   .offers {
     display: none;
   }
 }
-*/
+
 .coumob {
   display: flex;
   flex-direction: column;
