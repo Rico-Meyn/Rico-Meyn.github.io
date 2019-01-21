@@ -97,12 +97,12 @@ header .ca {
   padding-top: 64px;
   align-items: flex-start;
 }
-/*
+
 @media only screen and (max-width: 600px) {
   .cover {
     flex-direction: column; }
   }
-*/
+
 .cover h1 {
   margin: 32px 0 32px 16px;
 }
@@ -160,7 +160,7 @@ text-decoration: none;
   flex-direction: row;
   padding-bottom: 32px;
 }
-/*
+
 @media only screen and (min-width: 600px) {
   .newsphone {
     display: none;
@@ -174,7 +174,7 @@ text-decoration: none;
     align-items: center;
     margin-bottom: 16px;
   }
-*/
+
 .news .practicing {
   padding: 32px 24px;
   width: 55%;
@@ -428,13 +428,13 @@ text-decoration: none;
   display: inline-flex;
   flex-direction: column;
 }
-/*
+
 @media only screen (max-width: 600px) {
   .other {
     display: none;
   }
 }
-*/
+
 /* Footer */
 
 footer {
