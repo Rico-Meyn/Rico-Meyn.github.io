@@ -81,7 +81,7 @@ header .ca {
 
 .cover .learn {
   display: inline-flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
