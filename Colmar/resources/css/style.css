@@ -73,7 +73,7 @@ header .ca {
 .linksmob {
   justify-content: space-around;
 }
-
+/*
 @media only screen and (min-width: 600px) {
   .linksmob {
     display: none;
@@ -91,6 +91,8 @@ header .ca {
     display: none;
   }
 }
+*/
+
 /* Banner Section */
 
 .cover {
@@ -99,12 +101,12 @@ header .ca {
   padding-top: 64px;
   align-items: flex-start;
 }
-
+/*
 @media only screen and (max-width: 600px) {
   .cover {
     flex-direction: column; }
   }
-
+*/
 .cover h1 {
   margin: 32px 0 32px 16px;
 }
@@ -138,13 +140,13 @@ header .ca {
   align-items: center;
   margin: 24px 0 32px 0;
 }
-
+/*
 @media only screen and (max-width: 600px) {
   .cover .learn .button {
     background-color: #bababa;
   }
 }
-
+*/
 .cover .learn .button a {
 color: white;
 text-decoration: none;
@@ -162,7 +164,7 @@ text-decoration: none;
   flex-direction: row;
   padding-bottom: 32px;
 }
-
+/*
 @media only screen and (min-width: 600px) {
   .newsphone {
     display: none;
@@ -176,7 +178,7 @@ text-decoration: none;
     align-items: center;
     margin-bottom: 16px;
   }
-
+*/
 .news .practicing {
   padding: 32px 24px;
   width: 55%;
@@ -313,21 +315,22 @@ text-decoration: none;
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
 }
-
+/*
 @media only screen and (min-width: 600px)
 {
   .coumob {
     display: none;
   }
 }
-
+*/
+/*
 @media only screen and (max-width: 600px)
 {
   .offers {
     display: none;
   }
 }
-
+*/
 .coumob {
   display: flex;
   flex-direction: column;
@@ -419,12 +422,13 @@ text-decoration: none;
   display: inline-flex;
   flex-direction: column;
 }
-
+/*
 @media only screen (max-width: 600px) {
   .other {
     display: none;
   }
 }
+*/
 /* Footer */
 
 footer {
