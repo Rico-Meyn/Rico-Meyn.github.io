@@ -137,6 +137,7 @@ text-decoration: none;
   margin-bottom: 32px;
   display: block;
   height: auto;
+  max-width: 100%;
 }
 
 .news .practicing h1 {
@@ -247,6 +248,7 @@ text-decoration: none;
   height: auto;
   display: block;
   flex-shrink: 1;
+  max-width: 100%;
 }
 
 .courses .offers {
