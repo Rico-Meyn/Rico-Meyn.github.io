@@ -106,6 +106,7 @@ header .ca {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 24px;
 }
 
 .cover .learn .button a {
