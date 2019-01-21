@@ -288,7 +288,7 @@ text-decoration: none;
 
 .thesis .content .left {
   width: 60%;
-  padding: 32px 24px 24px 24px;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
