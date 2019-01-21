@@ -19,6 +19,60 @@ span {
   line-height: 1.5rem;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .cover {
+    flex-direction: column;
+  }
+  .links {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .cover .learn .button {
+    background-color: #bababa;
+  }
+  .newsphone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .offers {
+    display: none;
+  }
+    .news {
+      display: none;
+    }
+    .textphone {
+      margin-left: 16px;
+      display: block;
+       }
+       .artphone {
+         padding: 16px;
+         margin-bottom: 64px;
+         align-items: center;
+       }
+
+       .artphone img {
+         width: 100%;
+         height: auto;
+       }
+}
+
+  @media only screen and (min-width: 600px) {
+    .linksmob {
+      display: none;
+    }
+    .newsphone {
+      display: none;
+    }
+      .coumob {
+        display: none;
+      }
+  }
+
 /* Header */
 
 header {
@@ -75,22 +129,6 @@ header .ca {
   justify-content: space-around;
 }
 
-@media only screen and (min-width: 600px) {
-  .linksmob {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .links {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .logo {
-    display: none;
-  }
 }
 /* Banner Section */
 
@@ -101,10 +139,6 @@ header .ca {
   align-items: flex-start;
 }
 
-@media only screen and (max-width: 600px) {
-  .cover {
-    flex-direction: column; }
-  }
 
 .cover h1 {
   margin: 32px 0 32px 16px;
@@ -141,12 +175,6 @@ header .ca {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 600px) {
-  .cover .learn .button {
-    background-color: #bababa;
-  }
-}
-
 .cover .learn .button a {
 color: white;
 text-decoration: none;
@@ -157,41 +185,6 @@ text-decoration: none;
 }
 
 /* News Section */
-
-@media only screen and (min-width: 600px) {
-  .newsphone {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .newsphone {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-
-  .news {
-    display: none;
-  }
-
-  .textphone {
-    margin-left: 16px;
-    display: block;
-     }
-
-     .artphone {
-       padding: 16px;
-       margin-bottom: 64px;
-       align-items: center;
-     }
-
-     .artphone img {
-       width: 100%;
-       height: auto;
-     }
-}
 
 .news {
   background-color: #e8e8e8;
@@ -337,20 +330,6 @@ text-decoration: none;
   margin: 8px 16px 8px 0;
 }
 
-@media screen only and (min-width: 600px)
-{
-  .coumob {
-    display: none;
-  }
-}
-
-@media screen only and (max-width: 600px)
-{
-  .offers {
-    display: none;
-  }
-}
-
 .coumob {
   display: flex;
   flex-direction: column;
@@ -359,9 +338,10 @@ text-decoration: none;
 }
 
 .butmob {
-  background-color: #121212;
+  background-color: #bababa;
   height: 64px;
   width: 90%;
+  margin: 16px;
 }
 
 /* Thesis Part */
