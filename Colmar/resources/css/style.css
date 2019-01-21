@@ -342,6 +342,7 @@ text-decoration: none;
   justify-content: center;
   color: white;
   margin: 24px;
+  align-items: center;
 }
 
 .butmob span {
