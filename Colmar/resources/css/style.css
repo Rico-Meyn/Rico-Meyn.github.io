@@ -75,19 +75,19 @@ header .ca {
   justify-content: space-around;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 600px) {
   .linksmob {
     display: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .links {
     display: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .logo {
     display: none;
   }
@@ -101,7 +101,7 @@ header .ca {
   align-items: flex-start;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .cover {
     flex-direction: column; }
   }
@@ -141,7 +141,7 @@ header .ca {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .cover .learn .button {
     background-color: #bababa;
   }
@@ -158,13 +158,13 @@ text-decoration: none;
 
 /* News Section */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 600px) {
   .newsphone {
     display: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .newsphone {
     display: flex;
     flex-direction: column;
@@ -335,6 +335,33 @@ text-decoration: none;
 
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
+}
+
+@media screen only and (min-width: 600px)
+{
+  .coumob {
+    display: none;
+  }
+}
+
+@media screen only and (max-width: 600px)
+{
+  .offers {
+    display: none;
+  }
+}
+
+.coumob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.butmob {
+  background-color: #121212;
+  height: 64px;
+  width: 90%;
 }
 
 /* Thesis Part */
