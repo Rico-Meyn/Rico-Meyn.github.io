@@ -130,6 +130,7 @@ text-decoration: none;
   width: 55%;
   display: inline-flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .news .practicing img {
@@ -219,7 +220,7 @@ text-decoration: none;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .courses h1 {
@@ -234,6 +235,7 @@ text-decoration: none;
   margin: 32px;
   flex-direction: column;
   max-width: 30%;
+  align-items: center;
 }
 
 .courses .offers .cours .ctext {
@@ -259,6 +261,10 @@ text-decoration: none;
 }
 
 /* Thesis Part */
+
+.thesis h1 {
+  margin-bottom: 0px;
+}
 
 .thesis {
   background-color: #e8e8e8;
