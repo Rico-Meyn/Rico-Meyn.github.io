@@ -218,6 +218,18 @@ text-decoration: none;
   display: block;
 }
 
+/* News Section Phone */
+
+.newsphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artphone {
+  padding: 16px 16px 64px 16px;
+}
+
 /* Courses Section */
 
 .courses {
@@ -395,6 +407,7 @@ footer .foot {
 }
 
 /* Mobile */
+
 @media only screen and (max-width:600px) {
   #desktop {
     display: none;
