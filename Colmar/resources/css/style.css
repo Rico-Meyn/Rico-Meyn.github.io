@@ -73,7 +73,7 @@ header .ca span {
 
 .linksmob {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   padding: 0 16px;
 }
