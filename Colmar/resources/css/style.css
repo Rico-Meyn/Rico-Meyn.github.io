@@ -78,6 +78,7 @@ header .ca {
   display: flex;
   padding-top: 64px;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .cover h1 {
@@ -207,6 +208,12 @@ text-decoration: none;
 .news .right .text {
   display: inline-block;
   width: 65%;
+}
+
+.text {
+  margin-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .text a {
