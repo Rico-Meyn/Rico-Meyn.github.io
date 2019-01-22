@@ -435,13 +435,20 @@ footer .foot {
   .cover {
     flex-direction: column;
   }
-  .thesis .content .left {
+  .thesis .content .left
+   {
     width: 100%;
+  }
+  header {
+    justify-content: center;
   }
 }
 
 @media only screen and (min-width:764px) {
   #phone {
     display: none;
+  }
+  header {
+      justify-content: space-between;
   }
 }
