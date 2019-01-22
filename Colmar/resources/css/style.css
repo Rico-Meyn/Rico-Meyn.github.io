@@ -435,8 +435,7 @@ footer .foot {
   .cover {
     flex-direction: column;
   }
-  .thesis .content .left
-   {
+  .thesis .content .left {
     width: 100%;
   }
 }
