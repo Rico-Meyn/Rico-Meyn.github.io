@@ -73,7 +73,7 @@ header .ca {
 .linksmob {
   justify-content: space-around;
 }
-
+/*
 @media only screen and (min-width: 600px) {
   .linksmob {
     display: none;
@@ -86,7 +86,7 @@ header .ca {
   }
 }
 
-
+*/
 
 
 /* Banner Section */
@@ -98,11 +98,13 @@ header .ca {
   align-items: flex-start;
 }
 
+/*
 @media only screen and (max-width: 600px) {
   .cover {
     flex-direction: column; }
   }
 
+*/
 .cover h1 {
   margin: 32px 0 32px 16px;
 }
@@ -137,11 +139,13 @@ header .ca {
   margin: 24px 0 32px 0;
 }
 
+/*
 @media only screen and (max-width: 600px) {
   .cover .learn .button {
     background-color: #bababa;
   }
 }
+ */
 
 .cover .learn .button a {
 color: white;
@@ -435,13 +439,13 @@ text-decoration: none;
   display: inline-flex;
   flex-direction: column;
 }
-
+/*
 @media only screen (max-width: 600px) {
   .other {
     display: none;
   }
 }
-
+*/
 /* Footer */
 
 footer {
