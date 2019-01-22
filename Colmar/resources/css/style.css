@@ -313,7 +313,7 @@ text-decoration: none;
   justify-content: space-around;
 }
 
-.butmob {
+{
   background-color: #bababa;
   height: 64px;
   width: 90%;
@@ -323,7 +323,11 @@ text-decoration: none;
   margin: 24px;
   align-items: center;
   font-size: 1.5rem;
+}
+
+.butmob a {
   text-decoration: none;
+  color: white;
 }
 
 /* Thesis Part */
