@@ -37,11 +37,7 @@ header img {
   height: 32px;
   margin-left: 24px;
 }
-/*
-header span {
-  align-self: center;
-}
-*/
+
 header .Colmar {
   color: #bababa;
 }
@@ -73,21 +69,6 @@ header .ca {
 .linksmob {
   justify-content: space-around;
 }
-/*
-@media only screen and (min-width: 600px) {
-  .linksmob {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .links, .logo {
-    display: none;
-  }
-}
-
-*/
-
 
 /* Banner Section */
 
@@ -98,13 +79,6 @@ header .ca {
   align-items: flex-start;
 }
 
-/*
-@media only screen and (max-width: 600px) {
-  .cover {
-    flex-direction: column; }
-  }
-
-*/
 .cover h1 {
   margin: 32px 0 32px 16px;
 }
@@ -139,14 +113,6 @@ header .ca {
   margin: 24px 0 32px 0;
 }
 
-/*
-@media only screen and (max-width: 600px) {
-  .cover .learn .button {
-    background-color: #bababa;
-  }
-}
- */
-
 .cover .learn .button a {
 color: white;
 text-decoration: none;
@@ -164,20 +130,6 @@ text-decoration: none;
   flex-direction: row;
   padding-bottom: 32px;
 }
-
-@media only screen and (min-width: 600px) {
-  .newsphone {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .newsphone {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 16px;
-  }
 
 .news .practicing {
   padding: 32px 24px;
@@ -315,29 +267,7 @@ text-decoration: none;
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
 }
-/*
-@media only screen and (min-width: 600px)
-{
-  .coumob {
-    display: none;
-  }
-}
 
-@media only screen and (min-width: 600px)
-{
-  .butmob {
-    display: none;
-  }
-}
-
-
-@media only screen and (max-width: 600px)
-{
-  .offers {
-    display: none;
-  }
-}
-*/
 .coumob {
   display: flex;
   flex-direction: column;
@@ -439,13 +369,7 @@ text-decoration: none;
   display: inline-flex;
   flex-direction: column;
 }
-/*
-@media only screen (max-width: 600px) {
-  .other {
-    display: none;
-  }
-}
-*/
+
 /* Footer */
 
 footer {
@@ -468,4 +392,20 @@ footer span {
 
 footer .foot {
   display: inline-block;
+}
+
+/* Mobile */
+@media only screen and (min-width:600px) {
+  #desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #phone {
+    display: none;
+  }
+  .cover {
+    flex-direction: column;
+  }
 }
