@@ -319,6 +319,7 @@ text-decoration: none;
   color: white;
   margin: 24px;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 /* Thesis Part */
@@ -438,16 +439,16 @@ footer .foot {
    {
     width: 100%;
   }
-  header {
+/*  header {
     justify-content: center;
   }
-}
+} */
 
 @media only screen and (min-width:764px) {
   #phone {
     display: none;
   }
-  header {
+  /*header {
       justify-content: space-between;
   }
-}
+}*/
