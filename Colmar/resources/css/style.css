@@ -73,7 +73,6 @@ header .ca span {
 .linksmob {
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
 }
 
 .logo {
@@ -245,7 +244,7 @@ text-decoration: none;
   flex-direction: column;
   align-items: flex-start;
   border-bottom: 1px solid lightgrey;
-  padding: 16px 16px 64px 16px;
+  padding: 16px 16px 0 16px;
 }
 
 .artphone {
