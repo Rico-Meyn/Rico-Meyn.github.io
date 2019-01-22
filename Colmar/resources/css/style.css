@@ -75,7 +75,7 @@ header .ca span {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 16px;
+  padding: 0 16px;
 }
 
 .logo {
@@ -323,6 +323,7 @@ text-decoration: none;
   margin: 24px;
   align-items: center;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 /* Thesis Part */
