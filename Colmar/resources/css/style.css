@@ -412,13 +412,13 @@ footer .foot {
   #desktop {
     display: none;
   }
+  .cover {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width:600px) {
   #phone {
     display: none;
-  }
-  .cover {
-    flex-direction: column;
   }
 }
