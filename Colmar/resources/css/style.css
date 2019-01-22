@@ -311,10 +311,17 @@ text-decoration: none;
 .courses .offers .cours .ctext .couhead {
   margin: 8px 16px 8px 0;
 }
-
+/*
 @media only screen and (min-width: 600px)
 {
   .coumob {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px)
+{
+  .butmob {
     display: none;
   }
 }
@@ -326,7 +333,7 @@ text-decoration: none;
     display: none;
   }
 }
-
+*/
 .coumob {
   display: flex;
   flex-direction: column;
