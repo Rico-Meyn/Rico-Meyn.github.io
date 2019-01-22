@@ -223,6 +223,7 @@ text-decoration: none;
   margin-left: 16px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .text a {
