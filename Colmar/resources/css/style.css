@@ -133,6 +133,10 @@ color: white;
 text-decoration: none;
 }
 
+.cover .learn .button:hover {
+  background-color: #989898;
+}
+
 .cover .learn .button span {
   margin: 0 8px;
 }
@@ -320,9 +324,20 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   color: white;
-  margin: 24px;
+  margin: 8px;
   align-items: center;
   font-size: 1.5rem;
+}
+
+.butmob:hover {
+  background-color: #989898;
+}
+
+.butmob span {
+  margin: 16px 0 24px 16px;
+  text-decoration: none;
+  color: white;
+
 }
 
 
@@ -443,6 +458,9 @@ footer .foot {
    {
     width: 100%;
   }
+  .cover .learn .button {
+    background-color: #cbcbcb;
+}
 }
 
 @media only screen and (min-width:764px) {
