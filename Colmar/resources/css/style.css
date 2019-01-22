@@ -71,7 +71,8 @@ header .ca span {
 
 .linksmob {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 24px;
 }
 
 .logo {
