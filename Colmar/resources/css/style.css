@@ -27,7 +27,6 @@ header {
   display: flex;
   position: fixed;
   background-color: white;
-  justify-content: space-between;
   align-items: center;
   background-color: white;
 }
@@ -438,10 +437,16 @@ footer .foot {
    {
     width: 100%;
   }
+  header {
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width:764px) {
   #phone {
     display: none;
+  }
+  header {
+      justify-content: space-between;
   }
 }
