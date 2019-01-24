@@ -118,7 +118,7 @@ header .ca span {
 }
 
 .cover .learn .button {
-  background-color: #454545;
+  background-color: #b19783;
   width: 65%;
   height: 48px;
   display: flex;
@@ -134,7 +134,7 @@ text-decoration: none;
 }
 
 .cover .learn .button:hover {
-  background-color: #989898;
+  background-color: #97785f;
 }
 
 .cover .learn .button span {
@@ -463,7 +463,7 @@ footer .foot {
     width: 100%;
   }
   .cover .learn .button {
-    background-color: #cbcbcb;
+    background-color: #97785f;
 }
 }
 
