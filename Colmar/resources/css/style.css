@@ -296,7 +296,7 @@ text-decoration: none;
   height: auto;
   display: block;
   flex-shrink: 1;
-  max-width: 100%;
+  width: 100%;
 }
 
 .courses .offers {
