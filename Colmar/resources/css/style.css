@@ -276,6 +276,10 @@ text-decoration: none;
   width: 100%;
 }
 
+.artphone img {
+  height: auto;
+}
+
 .artphone:hover {
   background-color: #80a0b4;
 }
