@@ -31,6 +31,7 @@ header {
   align-items: center;
   background-color: white;
   justify-content: space-between;
+  border-bottom: 1px solid #80a0b4;
 }
 
 header img {
@@ -45,14 +46,6 @@ header .Colmar {
 
 header .Academy {
   color: #b19783;
-}
-
-header .Colmar:hover {
-  color: #b19783;
-}
-
-header .Academy:hover {
-  color: #80a0b4;
 }
 
 .links {
@@ -138,6 +131,7 @@ header .ca span {
   align-items: center;
   margin: 24px 0 32px 0;
   padding: 8px 35px;
+  border-radius: 24px;
 }
 
 .cover .learn .button a {
