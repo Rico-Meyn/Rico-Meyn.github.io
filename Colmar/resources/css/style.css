@@ -278,6 +278,7 @@ text-decoration: none;
 
 .artphone img {
   height: auto;
+  width: 100%;
 }
 
 .artphone:hover {
