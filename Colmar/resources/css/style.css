@@ -273,6 +273,11 @@ text-decoration: none;
   flex-direction: column;
   margin-bottom: 64px;
   border: solid 2px #80a0b4;
+  width: 100%;
+}
+
+.artphone:hover {
+  background-color: #80a0b4;
 }
 
 /* Courses Section */
