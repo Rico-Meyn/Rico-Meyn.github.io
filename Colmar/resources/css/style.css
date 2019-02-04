@@ -47,6 +47,14 @@ header .Academy {
   color: #b19783;
 }
 
+header .Colmar:hover {
+  color: #b19783;
+}
+
+header .Academy:hover {
+  color: #80a0b4;
+}
+
 .links {
   margin-right: 8px;
 }
