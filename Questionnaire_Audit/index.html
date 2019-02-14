@@ -346,10 +346,10 @@
 <div class="Budget">
   <tr>
       <td class="Question"><p class="Question">Budget/ Revenue for HVAC&R systems</p></td>
-    <td><input type="checkbox" name="Sales">Less than 10,000$</td>
-    <td><input type="checkbox" name="Sales">10,000$ to 100,0000</td>
-    <td><input type="checkbox" name="Sales">100,000$ to 1,000,000</td>
-    <td><input type="checkbox" name="Sales">More than than 1,000,000$</td>
+    <td><input type="radio" name="Sales">Less than 10,000$</td><br>
+    <td><input type="radio" name="Sales">10,000$ to 100,0000</td><br>
+    <td><input type="radio" name="Sales">100,000$ to 1,000,000</td><br>
+    <td><input type="radio" name="Sales">More than than 1,000,000$</td><br>
   </tr>
 </div>
 
@@ -357,8 +357,13 @@
 
       <div class="Position">
         <tr>
-          <td class="Question"><p class="Question">Your Job Title</p></td>
-          <td><input type="text" name="Position" id="Position">
+          <td class="Question"><p class="Question">What is your seniority level?</p></td>
+          <input type="radio" name="Selection" value="CEO">CEO<br>
+          <input type="radio" name="Selection" value="Director">Director<br>
+          <input type="radio" name="Selection" value="SenMan">Senior Manager<br>
+          <input type="radio" name="Selection" value="Manager">Manager<br>
+          <input type="radio" name="Selection" value="JunMan">Junior Manager<br>
+          <input type="radio" name="Selection" value="Intern">Intern<br>
           </tr>
         </div>
 
@@ -366,11 +371,12 @@
 
         <div class="Selection">
           <tr>
-            <td class="Question"><p class="Question">Are you involved in the selection/purchase process for any kind of HVAC&R equipment?</p></td>
+            <td class="Question"><p class="Question">Who is responsible for the purchase of HVAC&R equipment?</p></td>
 <td>
-            <input type="radio" name="Selection" value="Yes">Yes<br>
-                <input type="radio" name="Selection" value="No">No<br>
-  </td>
+            <input type="radio" name="Selection" value="Me">Me<br>
+            <input type="radio" name="Selection" value="Same">Someone in my department<br>
+            <input type="radio" name="Selection" value="Different">Someone from a different department<br>
+</td>
           </tr>
         </div>
         <br>
@@ -386,6 +392,39 @@
         </td>
           </tr>
         </div>
+
+<!-- Satisfaction -->
+
+<div class="Satisfaction">
+  <tr>
+    <td class="Question"><p class="Question">How satisfied are you with the content of <em>Accelerate</em> (from 1 to 7)</td>
+      <select>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+</select>
+  </tr>
+</div>
+
+<!-- Favourite Section -->
+<div class="Favourite">
+  <tr>
+    <td class="Question"><p class="Question">Which section of <em>Accelerate</em> is your favourite? (Multiple answers allowed)</td>
+      <input type="checkbox" name="section" value="Cover_Story">Cover Story<br>
+      <input type="checkbox" name="section" value="Opinion">Opinion<br>
+      <input type="checkbox" name="section" value="Trends">Trends<br>
+      <input type="checkbox" name="section" value="Policy">Policy<br>
+      <input type="checkbox" name="section" value="Events">Events<br>
+      <input type="checkbox" name="section" value="Opinion">Opinion<br>
+      <input type="checkbox" name="section" value="Technology">Technology<br>
+  </tr>
+</div>
+
+
 
 <!-- Submission button -->
 
