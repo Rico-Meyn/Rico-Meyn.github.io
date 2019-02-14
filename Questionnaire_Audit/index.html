@@ -22,14 +22,6 @@
     <td><input type="text" name="Name"</td>
     </tr>
 
-<!-- Company -->
-
-      <div class="Company_Name">
-    <tr>
-    <td class="Question"><p class="Question">Company Name</p></td>
-    <td><input type="text" name="Company_Name"</td>
-    </tr>
-
 <!-- Country -->
 
     <div class="Location">
@@ -272,18 +264,21 @@
 
 <!-- Organisation Type -->
 
-      <div class="Company_Type">
+      <div class="Organisation_Type">
         <tr>
-          <td class="Question"><p class="Question">Type of Company (multiple selection allowed)</p></td>
+          <td class="Question"><p class="Question">Type of Organisation (multiple selection allowed)</p></td>
   <td>
-          <input type="radio" name="Company_Type" value="End-User">End User<br>
-          <input type="radio" name="Company_Type" value="Manufacturer">System Manufacturer<br>
-          <input type="radio" name="Company_Type" value="Component_Manufacturer">Component Manufacturer<br>
-          <input type="radio" name="Company_Type" value="Contractor">Contractor<br>
-          <input type="radio" name="Company_Type" value="Distributor">Distributor<br>
-          <input type="radio" name="Company_Type" value="Engineering_Firm">Engineering Firm<br>
-          <input type="radio" name="Company_Type" value="Consultant">Consultant<br>
-          <input type="radio" name="Company_Type" value="Other">Other<br>
+          <input type="radio" name="Organisation_Type" value="End-User">End User<br>
+          <input type="radio" name="Organisation_Type" value="Manufacturer">System Manufacturer<br>
+          <input type="radio" name="Organisation_Type" value="Component_Manufacturer">Component Manufacturer<br>
+          <input type="radio" name="Organisation_Type" value="Contractor">Contractor<br>
+          <input type="radio" name="Organisation_Type" value="Distributor">Distributor<br>
+          <input type="radio" name="Organisation_Type" value="Engineering_Firm">Engineering Firm<br>
+          <input type="radio" name="Organisation_Type" value="Consultant">Consultant<br>
+          <input type="radio" name="Organisation_Type" value="Policy">Policy<br>
+          <input type="radio" name="Organisation_Type" value="Academia">Academia/ Research<br>
+          <input type="radio" name="Organisation_Type" value="NGO">NGO<br>
+          <input type="radio" name="Organisation_Type" value="Other">Other<br>
 </td>
 <tr>
           <td class="Question"><p>If you chose other, please specify:</p></td>
@@ -294,11 +289,21 @@
         </tr>
       </div>
 
+
+      <!-- Company -->
+
+            <div class="Company_Name">
+          <tr>
+          <td class="Question"><p class="Question">Company Name</p></td>
+          <td><input type="text" name="Company_Name"</td>
+          </tr>
+
+
 <!-- HVAC&R Section -->
 
       <div class="Type">
         <tr>
-          <td class="Question"><p class="Question">Type of HVAC&R Equipment used or sold (multiple selections allowed) </p></td>
+          <td class="Question"><p class="Question">Main interest in HVAC&R (multiple selections allowed) </p></td>
           <td>
 <input type="checkbox" name="Type" value="Refrigeration">Refrigeration<br>
 <input type="checkbox" name="Type" value="Air_Conditioning">Air Conditioning<br>
@@ -335,6 +340,18 @@
           </td>
           </tr>
       </div>
+
+<!-- HVAC&R Sales / Budget -->
+
+<div class="Budget">
+  <tr>
+      <td class="Question"><p class="Question">Budget/ Revenue for HVAC&R systems</p></td>
+    <td><input type="checkbox" name="Sales">Less than 10,000$</td>
+    <td><input type="checkbox" name="Sales">10,000$ to 100,0000</td>
+    <td><input type="checkbox" name="Sales">100,000$ to 1,000,000</td>
+    <td><input type="checkbox" name="Sales">More than than 1,000,000$</td>
+  </tr>
+</div>
 
 <!-- Company Position -->
 
