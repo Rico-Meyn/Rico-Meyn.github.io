@@ -358,12 +358,14 @@
       <div class="Position">
         <tr>
           <td class="Question"><p class="Question">What is your seniority level?</p></td>
+          <td>
           <input type="radio" name="Selection" value="CEO">CEO<br>
           <input type="radio" name="Selection" value="Director">Director<br>
           <input type="radio" name="Selection" value="SenMan">Senior Manager<br>
           <input type="radio" name="Selection" value="Manager">Manager<br>
           <input type="radio" name="Selection" value="JunMan">Junior Manager<br>
           <input type="radio" name="Selection" value="Intern">Intern<br>
+        </td>
           </tr>
         </div>
 
@@ -372,11 +374,11 @@
         <div class="Selection">
           <tr>
             <td class="Question"><p class="Question">Who is responsible for the purchase of HVAC&R equipment?</p></td>
-<td>
+            <td>
             <input type="radio" name="Selection" value="Me">Me<br>
             <input type="radio" name="Selection" value="Same">Someone in my department<br>
             <input type="radio" name="Selection" value="Different">Someone from a different department<br>
-</td>
+            </td>
           </tr>
         </div>
         <br>
@@ -398,6 +400,7 @@
 <div class="Satisfaction">
   <tr>
     <td class="Question"><p class="Question">How satisfied are you with the content of <em>Accelerate</em> (from 1 to 7)</td>
+      <td>
       <select>
 <option value="1">1</option>
 <option value="2">2</option>
@@ -406,14 +409,17 @@
 <option value="5">5</option>
 <option value="6">6</option>
 <option value="7">7</option>
-</select>
+      </select>
+    </td>
   </tr>
 </div>
 
 <!-- Favourite Section -->
+
 <div class="Favourite">
   <tr>
     <td class="Question"><p class="Question">Which section of <em>Accelerate</em> is your favourite? (Multiple answers allowed)</td>
+      <td>
       <input type="checkbox" name="section" value="Cover_Story">Cover Story<br>
       <input type="checkbox" name="section" value="Opinion">Opinion<br>
       <input type="checkbox" name="section" value="Trends">Trends<br>
@@ -421,11 +427,32 @@
       <input type="checkbox" name="section" value="Events">Events<br>
       <input type="checkbox" name="section" value="Opinion">Opinion<br>
       <input type="checkbox" name="section" value="Technology">Technology<br>
+    </td>
   </tr>
 </div>
 
+<!-- Which Accelerates do you read? -->
 
+<div class="AcceleratesRead">
+    <td class="Question"><p class="Question">Which versions of <em>Accelerate</em> do you read? (Multiple answers allowed)</td>
+  <tr>
+      <input type="checkbox" name="issues" value="AA"><em>Accelerate America</em><br>
+      <input type="checkbox" name="issues" value="AE"><em>Accelerate Europe</em><br>
+      <input type="checkbox" name="issues" value="AAUNZ"><em>Accelerate Australia and New Zealand</em><br>
+      <input type="checkbox" name="issues" value="AJ"><em>Accelerate Japan</em><br>
+      <input type="checkbox" name="issues" value="ACorp"><em>Accelerate Corporate</em><br>
+  </tr>
+</div>
 
+<!-- Global Accelerate -->
+
+<div class="Global">
+    <td class="Question"><p class="Question">Would you prefer a global <em>Accelerate</em> over regional issues?</td>
+  <tr>
+    <input type="radio" name="Global" value="Yes">Yes<br>
+    <input type="radio" name="Global" value="No">No<br>
+    <input type="radio" name="Global" value="Dunno">I don't know<br>
+  </tr>
 <!-- Submission button -->
 
         <tr>
