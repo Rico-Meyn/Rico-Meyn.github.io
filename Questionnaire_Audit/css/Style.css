@@ -11,13 +11,13 @@ h1 {
   text-transform: uppercase;
   }
 
-  body {
-    background-image: url(../Pictures/AA_Awards.jpg);
-    background-color: #919191;
-    }
+body {
+  background-image: url(../Pictures/AA_Awards.jpg);
+  background-color: #919191;
+  }
 
-  .Question {
-    font-size: 18px;
+.Question {
+  font-size: 18px;
   }
 
 #Suggestions {
@@ -29,24 +29,18 @@ h1 {
 	overflow: auto;
   }
 
-    .Submit {
-      background-color: #101010;
-      padding: 12px;
-      -moz-border-radius: 5px;
-      -webkit-border-radius: 5px;
-      color: #E0E0E0;
-      font-family: Sans-Serif;
-      font-size: 20px;
-      }
+.Submit {
+  background-color: #101010;
+  padding: 12px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #E0E0E0;
+  font-family: Sans-Serif;
+  font-size: 20px;
+  }
 
-      .Submit:hover {
+.Submit:hover {
   border: none;
   background: #202020;
   box-shadow: 0px 0px 1px #777;
 }
-
-/*
-div {
-  margin: 4rem;
-}
-*/
