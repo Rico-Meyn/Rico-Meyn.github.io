@@ -4,11 +4,6 @@ html {
   font-family: Helvetica;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-}
-
 /* Cover */
 
 .cover {
