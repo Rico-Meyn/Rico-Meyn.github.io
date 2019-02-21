@@ -10,7 +10,7 @@ html {
   width: 100%;
   height: 30rem;
   padding-top: 1rem;
-  background-image: url(./resources/images/glasses-bg.png);
+  background-image: url(../resources/images/glasses-bg.png);
   background-size: cover;
 }
 
