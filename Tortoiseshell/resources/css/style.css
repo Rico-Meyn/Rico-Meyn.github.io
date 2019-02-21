@@ -63,6 +63,12 @@ h1 {
 
 /* Logo Section */
 
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .pics {
   display: flex;
   flex-direction: row;
@@ -129,7 +135,7 @@ justify-content: space-between;
   flex-direction: column;
 }
 
-.app {
+.appo {
   width: 35%;
   height: auto;
   display: inline-block;
