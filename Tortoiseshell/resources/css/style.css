@@ -76,6 +76,9 @@ h1 {
 
 .exams, .fittings, .delivery {
   height: 8rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Text Section */
@@ -96,6 +99,7 @@ h1 {
 .philo, .app {
   width: 35%;
   height: auto;
+  display: inline-block;
 }
 
 /* Footer */
