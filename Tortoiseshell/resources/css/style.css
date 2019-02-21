@@ -64,7 +64,7 @@ h1 {
 
 .pics {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 3rem 0;
 }
 
@@ -72,4 +72,21 @@ h1 {
   width: 3.5rem;
   height: auto;
   margin: 0 6rem;
+}
+
+.exams, .fittings, .delivery {
+  height: 8rem;
+}
+
+.subhead h2 {
+  text-transform: uppercase;
+  margin: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+.subhead {
+  background-color: cadetblue;
+  width: 10rem;
+  height: 2rem;
 }
