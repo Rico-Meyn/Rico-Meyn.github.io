@@ -50,6 +50,7 @@ nav {
 .block {
   background-color: white;
   margin-top: 10rem;
+  height: 5rem;
 }
 
 h1 {
@@ -75,7 +76,7 @@ h1 {
   margin: 0 6rem;
 }
 
-.fittings {
+.exams {
   height: 8rem;
   display: inline-flex;
   flex-direction: column;
@@ -125,6 +126,7 @@ justify-content: space-between;
   height: auto;
   display: inline-block;
   margin: 0 2.5%;
+  flex-direction: column;
 }
 
 .app {
@@ -132,6 +134,7 @@ justify-content: space-between;
   height: auto;
   display: inline-block;
   margin: 0 2.5%;
+  flex-direction: column;
 }
 
 /* Footer */
