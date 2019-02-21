@@ -62,7 +62,14 @@ h1 {
 
 /* Logo Section */
 
+.pics {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
 .pics img {
   width: 3.5rem;
-  height :auto;
+  height: auto;
+  margin: 0 6rem;
 }
