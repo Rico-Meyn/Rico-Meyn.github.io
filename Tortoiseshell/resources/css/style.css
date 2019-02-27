@@ -64,7 +64,7 @@ h1 {
   line-height: 2rem;
 }
 
-@media only and (max-width: 764px) {
+@media only screen and (max-width: 764px) {
   header {
     position: fixed;
     margin: 0;
@@ -75,19 +75,18 @@ h1 {
     margin: 0.75rem 4rem;
     font-size: 1.33rem;
   }
-}
 
-.block {
-  margin: 5rem 2rem 0 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
+  .block {
+    margin: 5rem 2rem 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
 
-.cover {
-  height: 22rem;
+  .cover {
+    height: 22rem;
+  }
 }
-
 /* Logo Section */
 
 .info {
