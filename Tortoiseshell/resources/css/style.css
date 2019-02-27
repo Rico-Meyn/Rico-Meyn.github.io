@@ -24,6 +24,7 @@ header {
   align-items: center;
   color: white;
   background-color: cadetblue;
+  margin: 1rem 0;
 }
 
 header .logo {
@@ -53,7 +54,6 @@ nav {
   height: 5rem;
   flex-wrap: wrap;
   display: inline-flex;
-  flex-shrink: 0;
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
   padding: 1.5rem 5rem;
   font-weight: bold;
   font-size: 2rem;
-  line-height: 1.2rem;
+  line-height: 2.4rem;
 }
 
 /* Logo Section */
