@@ -51,6 +51,9 @@ nav {
   background-color: white;
   margin-top: 10rem;
   height: 5rem;
+  flex-wrap: wrap;
+  display: inline-flex;
+  flex-shrink: 0;
 }
 
 h1 {
