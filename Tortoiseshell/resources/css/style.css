@@ -54,6 +54,7 @@ nav {
   height: 5rem;
   flex-wrap: wrap;
   display: inline-flex;
+  position: absolute;
 }
 
 h1 {
