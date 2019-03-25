@@ -202,6 +202,10 @@ align-items: center;
     width: 75%;
   }
 
+  .pics img {
+    margin: 0 1rem;
+  }
+
 }
 
 .exams:hover {
