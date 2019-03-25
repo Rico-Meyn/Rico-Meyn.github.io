@@ -200,3 +200,15 @@ align-items: center;
   }
 
 }
+
+.exams:hover {
+  background-color: cadetblue;
+}
+
+.fittings:hover {
+  background-color: cadetblue;
+}
+
+.delivery:hover {
+  background-color: cadetblue;
+}
