@@ -153,7 +153,7 @@ align-items: center;
 }
 
 .philo {
-  width: 35%;
+  width: 25%;
   height: auto;
   display: inline-block;
   margin: 0 2.5%;
@@ -161,7 +161,7 @@ align-items: center;
 }
 
 .appo {
-  width: 35%;
+  width: 25%;
   height: auto;
   display: inline-block;
   margin: 0 2.5%;
