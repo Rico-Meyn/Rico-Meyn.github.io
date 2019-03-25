@@ -131,7 +131,8 @@ align-items: center;
 .text {
   display: flex;
   width: 960px;
-  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 16px;
 }
 
 .subhead h2 {
