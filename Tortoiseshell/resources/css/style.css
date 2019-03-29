@@ -197,19 +197,20 @@ align-items: center;
   }
 
   .pics img {
-    margin: 0 5px;
+    margin: 5px 0;
+    padding: 0;
   }
 
   .exams {
-    margin: 0 10px;
+    margin: 10px 0;
   }
 
   .fittings {
-    margin: 0 10px;
+    margin: 10px 0;
   }
 
   .delivery {
-    margin: 0 10px;
+    margin: 10px 0;
   }
 
   .text {
