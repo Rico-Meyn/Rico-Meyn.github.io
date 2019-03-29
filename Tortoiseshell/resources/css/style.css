@@ -54,7 +54,7 @@ nav {
   height: 5rem;
   flex-wrap: wrap;
   display: inline-flex;
-  position: absolute;
+  position: relative;
 }
 
 h1 {
@@ -199,6 +199,14 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+  }
+
+  .philo {
+    width: 75%;
+  }
+
+  .appo {
     width: 75%;
   }
 
