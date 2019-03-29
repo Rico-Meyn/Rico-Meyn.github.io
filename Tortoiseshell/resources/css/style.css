@@ -195,6 +195,22 @@ align-items: center;
     flex-direction: column;
   }
 
+  .pics img {
+    margin: 0 5px;
+  }
+
+  .exams {
+    margin: 0 10px;
+  }
+
+  .fittings {
+    margin: 0 10px;
+  }
+
+  .delivery {
+    margin: 0 10px;
+  }
+
   .text {
     display: flex;
     flex-direction: column;
@@ -203,15 +219,13 @@ align-items: center;
   }
 
   .philo {
-    width: 75%;
+    width: 50%;
+    margin-bottom: 10px;
   }
 
   .appo {
-    width: 75%;
-  }
-
-  .pics img {
-    margin: 0 1rem;
+    width: 50%;
+    margin-bottom: 10px;
   }
 
 }
